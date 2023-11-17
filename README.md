@@ -7,6 +7,6 @@ O HelpFila é um sistema inteligente projetado para simplificar e agilizar o pro
 # Recursos Principais  
 Agilidade no Atendimento: Reduza significativamente o tempo de espera dos pacientes, promovendo uma experiência mais rápida e eficaz.
 
-- Notificações em Tempo Real: Nós mantemos os pacientes informados sobre seu status na fila por meio de notificações em tempo real, minimizando a incerteza e a ansiedade.  
+- <b>Notificações em Tempo Real:</b> Nós mantemos os pacientes informados sobre seu status na fila por meio de notificações em tempo real, minimizando a incerteza e a ansiedade.  
 
-- Gerenciamento Eficiente: Permitimos que as clínicas gerenciem suas filas de maneira mais eficiente, otimizando recursos e melhorando a qualidade do serviço.  
+- <b>Gerenciamento Eficiente:</b> Permitimos que as clínicas gerenciem suas filas de maneira mais eficiente, otimizando recursos e melhorando a qualidade do serviço.  
