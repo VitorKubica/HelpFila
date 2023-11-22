@@ -15,7 +15,7 @@ export default function Login() {
                     <input className={csslogin.input} type="password" placeholder=" Senha " required/>
                 </label>
 
-                <button className={csslogin.submit}>Login</button>
+                <Link href='../home'><button className={csslogin.submit}>Login</button></Link>
 
                 <p className={csslogin.signin}>Ainda não tem uma conta?  <Link href="./">Registre-se</Link></p>
             </form>

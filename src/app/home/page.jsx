@@ -1,10 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import Cabecalho from '../components/Cabecalho/Cabecalho'
+import Rodape from '../components/Rodape/Rodape'
 
 export default function page() {
   return (
-    <div>
-      
+    <body>
+      <Cabecalho></Cabecalho>
+
+      <div>
       <div>
         <h1>Digite o nome da clínica ou hospital</h1>
       </div>
@@ -12,8 +16,11 @@ export default function page() {
       <div>
         <input type="text" placeholder="Pesquisar..." />
       </div>
-
-      <Image src="/medico_feliz.jpg" alt="Imagem de médico feliz" width={350} height={350} />
     </div>
+    
+    <Rodape></Rodape>
+    </body>
+    
+    
   )
 }

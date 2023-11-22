@@ -38,7 +38,7 @@ export default function Registrar() {
                     <input className={csslogin.input} type="password" placeholder="Confirme sua senha" required/>
                 </label>
 
-                <button className={csslogin.submit}>Submit</button>
+                <Link href='./login'><button className={csslogin.submit}>Submit</button></Link>
 
                 <p className={csslogin.signin}>Já possui uma conta? <Link href="./login">Login</Link></p>
             </form>

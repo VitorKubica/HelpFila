@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    background-color: #12314E;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+.header div{
+    width: 50%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+
+.menu a{
+    color: #FFF;
+    font-weight: 600;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 72.128px; /* 200% */
+    letter-spacing: 0.18px;
+}
