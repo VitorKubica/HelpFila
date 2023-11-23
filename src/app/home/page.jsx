@@ -7,6 +7,7 @@ import Image from 'next/image'
 
 export default function page() {
   return (
+  <div>
     <div className="containerHome">
       <Cabecalho/>
 
@@ -15,13 +16,13 @@ export default function page() {
           <Lupa/>
         </div>
         
-        <Image src="/doctorvector.png" height={350} width={520} alt="Vetor Médico"></Image>
-
         {/* <div className="">
           <Image src="waves-haikei.svg" fill alt="Waves SVG" className="Waves"></Image>
         </div> */}
         
+      
         
+      </div>
       <Rodape/>
     </div>
 
