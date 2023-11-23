@@ -1,9 +1,12 @@
+// block py-7 transition-all duration-300 ease-out font-extrabold transform scale-100 opacity-100 hover:scale-110 hover:opacity-90 focus:scale-110 focus:opacity-90;
+
 .header {
     display: flex;
     background-color: #12314E;
     align-items: center;
     padding-top: 5px;
     padding-left: 10px;
+    height: 13vh;
 
 }
 
@@ -24,4 +27,5 @@
     font-style: normal;
     line-height: 72.128px; /* 200% */
     letter-spacing: 0.18px;
+
 }
