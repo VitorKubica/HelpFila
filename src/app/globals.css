@@ -27,3 +27,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 } 
+
+h1{
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 10px;
+}

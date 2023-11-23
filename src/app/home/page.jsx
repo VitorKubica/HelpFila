@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Lupa from '../components/Lupa/Lupa'
 import Cabecalho from '../components/Cabecalho/Cabecalho'
 import Rodape from '../components/Rodape/Rodape'
 
@@ -14,7 +14,7 @@ export default function page() {
       </div>
       
       <div>
-        <input type="text" placeholder="Pesquisar..." />
+        <Lupa></Lupa>
       </div>
     </div>
     
