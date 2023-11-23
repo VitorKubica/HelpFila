@@ -1,56 +1,93 @@
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 1%;
-    
-  }
-  
-  .search__input {
-    font-family: inherit;
-    font-size: inherit;
-    background-color: #f4f2f2;
-    border: none;
-    color: #646464;
-    padding: 0.7rem 1rem;
-    border-radius: 30px;
-    width: 40em;
-    transition: all ease-in-out .5s;
-    margin-right: -2rem;
-    border: 1px solid #00000017;
-  }
-  
-  .search__input:hover, .search__input:focus {
-    box-shadow: 0 0 1em #00000060;
-  }
-  
-  .search__input:focus {
-    outline: none;
-    background-color: #f0eeee;
-  }
-  
-  .search__input::-webkit-input-placeholder {
-    font-weight: 100;
-    color: #ccc;
-  }
-  
-  .search__input:focus + .search__button {
-    background-color: #f0eeee;
-  }
-  
-  .search__button {
-    border: none;
-    background-color: #f4f2f2;
-    margin-top: .1em;
-  }
-  
-  .search__button:hover {
-    cursor: pointer;
-  }
-  
-  .search__icon {
-    height: 1.3em;
-    width: 1.3em;
-    fill: #b4b4b4;
-  }
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+// *{
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: 'Poppins', sans-serif;
+// }
+
+// ::selection{
+//   color: #fff;
+//   background: #664AFF;
+// }
+
+// .container{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   height: 10vh;
+//   max-width: 450px;
+//   margin: 150px auto;
+//   background: #fff;
+//   border-radius: 5px;
+// }
+
+// .container h2{
+//   color: #519;
+// }
+
+// .container .search{
+//   background: #fff;
+//   width: 100%;
+//   border-radius: 5px;
+//   position: relative;
+//   box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+// }
+
+// .search input{
+//   height: 55px;
+//   width: 100%;
+//   outline: none;
+//   border: none;
+//   border-radius: 5px;
+//   padding: 0 60px 0 20px;
+//   font-size: 18px;
+//   box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+// }
+
+// .search.active input{
+//   border-radius: 5px 5px 0 0;
+// }
+
+// .search .list{
+//   padding: 0;
+//   opacity: 0;
+//   pointer-events: none;
+//   max-height: 280px;
+//   overflow-y: auto;
+// }
+
+// .search.active .list{
+//   padding: 10px 8px;
+//   opacity: 1;
+//   pointer-events: auto;
+// }
+
+// .list li{
+//   list-style: none;
+//   padding: 8px 12px;
+//   display: none;
+//   width: 100%;
+//   cursor: default;
+//   border-radius: 3px;
+// }
+
+// .search.active .list li{
+//   display: block;
+// }
+// .list li:hover{
+//   background: #efefef;
+// }
+
+// .search .icon{
+//   position: absolute;
+//   right: 0px;
+//   top: 0px;
+//   height: 55px;
+//   width: 55px;
+//   text-align: center;
+//   line-height: 55px;
+//   font-size: 20px;
+//   color: #644bff;
+//   cursor: pointer;
+// }

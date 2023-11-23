@@ -11,9 +11,9 @@ export default function Cabecalho() {
         <Image src="/logo.svg" alt="Logo" width="200" height="30"></Image>
       </div>
       <div className="menu">
-        <Link href="">Home</Link>
+        <Link href="/home" className="link_cabecalho">Home</Link>
         <Link href="">Conteúdo</Link>
-        <Link href="">Sobre nós</Link>
+        <Link href="/about">Sobre nós</Link>
         <Link href="">Perfil</Link>
       </div>
     </header>
