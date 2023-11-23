@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
+      <link rel="icon" href="/icon-removebg-preview.png" type="image/<generated>" sizes="<generated>"/>
     </html>
   )
 }
