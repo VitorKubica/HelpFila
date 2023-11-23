@@ -1,23 +1,23 @@
 import Link from "next/link"
-import csslogin from  "../css/login.module.css"
+import "../css/login.scss"
 
 export default function Login() {
   return (
     <div>
-        <div className={csslogin.container}>
-            <form className={csslogin.form}>
-                <p className={csslogin.title}>Login</p>
+        <div className="container">
+            <form className="form">
+                <p className="title">Login</p>
                 <label>
-                    <input className={csslogin.input} type="email" placeholder=" Email " required/>
+                    <input className="input" type="email" placeholder=" Email " required/>
                 </label>
 
                 <label>
-                    <input className={csslogin.input} type="password" placeholder=" Senha " required/>
+                    <input className="input" type="password" placeholder=" Senha " required/>
                 </label>
 
-                <Link href='../home'><button className={csslogin.submit}>Login</button></Link>
+                <Link href='../home'><button className="submit">Login</button></Link>
 
-                <p className={csslogin.signin}>Ainda não tem uma conta?  <Link href="./">Registre-se</Link></p>
+                <p className="signin">Ainda não tem uma conta?  <Link href="./">Registre-se</Link></p>
             </form>
         </div>
     </div>
