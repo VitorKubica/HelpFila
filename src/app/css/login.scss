@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -101,8 +99,9 @@
   .submit {
     border: none;
     outline: none;
+    width: 300px;
     background-color: #2b3765;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     border-radius: 10px;
     color: #fff;
     font-size: 16px;

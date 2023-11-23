@@ -4,6 +4,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 1%;
+    
   }
   
   .search__input {
@@ -17,10 +18,11 @@
     width: 40em;
     transition: all ease-in-out .5s;
     margin-right: -2rem;
+    border: 1px solid #00000017;
   }
   
   .search__input:hover, .search__input:focus {
-    box-shadow: 0 0 1em #00000013;
+    box-shadow: 0 0 1em #00000060;
   }
   
   .search__input:focus {

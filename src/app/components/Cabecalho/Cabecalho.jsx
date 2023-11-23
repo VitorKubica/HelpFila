@@ -8,7 +8,7 @@ export default function Cabecalho() {
   return (
     <header className="header">
       <div className="imgLogo">
-        <Image src="/logo.png" alt="Logo" width="200" height="30"></Image>
+        <Image src="/logo.svg" alt="Logo" width="200" height="30"></Image>
       </div>
       <div className="menu">
         <Link href="">Home</Link>

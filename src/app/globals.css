@@ -7,6 +7,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 232, 232, 232;
   --background-end-rgb: 225, 225, 225;
+  min-height:100vh;
+
 }
 
 /* @media (prefers-color-scheme: light) {
