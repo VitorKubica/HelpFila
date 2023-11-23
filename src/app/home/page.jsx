@@ -17,9 +17,9 @@ export default function page() {
         
         <Image src="/doctorvector.png" height={350} width={520} alt="Vetor Médico"></Image>
 
-        <div className="">
+        {/* <div className="">
           <Image src="waves-haikei.svg" fill alt="Waves SVG" className="Waves"></Image>
-        </div>
+        </div> */}
         
         
       <Rodape/>

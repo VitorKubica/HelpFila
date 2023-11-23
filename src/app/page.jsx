@@ -38,7 +38,7 @@ export default function Registrar() {
                     <input className="input" type="password" placeholder="Confirme sua senha" required/>
                 </label>
 
-                <Link href='./login'><button className="submit">Submit</button></Link>
+                <Link href='./home'><button className="submit">Submit</button></Link>
 
                 <p className="signin">Já possui uma conta? <Link href="./login">Login</Link></p>
             </form>
