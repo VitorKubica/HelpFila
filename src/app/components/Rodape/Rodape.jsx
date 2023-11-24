@@ -1,8 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import React from 'react';
-import "../../css/rodape.scss";
+import "./rodape.scss";
 import Link from 'next/link';
-import Image from "next/image";
 
 export default function Rodape() {
   return (
@@ -18,7 +17,7 @@ export default function Rodape() {
           </div>
         </div>
         <div className="SM">
-          <img src="/logo.png" alt="Logo HelpFila" />
+          <img src="/logo.svg" alt="Logo HelpFila" />
           <p>@ 2023 HelpFila. All Rights Reserved.</p>
           <div className="socialMedia">
             <Link href="" className="link_sm"><FaFacebook style={{ color: "white" }} /></Link>
