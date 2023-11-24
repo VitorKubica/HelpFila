@@ -50,7 +50,7 @@ export default function RodapeAbout() {
       <div className="team-cards">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-card">
-              <a href={"https://github.com/nichol6s"}>
+              <a href={"https://github.com/VitorKubica/HelpFila"}>
                 <img src={member.foto} width="115px" alt={`Foto do ${member.nome} no GitHub`} />
                 <sub>
                   <strong>{member.nome}</strong>

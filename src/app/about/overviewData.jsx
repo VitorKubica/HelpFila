@@ -1,7 +1,7 @@
-import ilustracao01 from "../../assets/img/ilustracao1.svg";
-import ilustracao02 from "../../assets/img/ilustracao8.svg";
-import ilustracao03 from "../../assets/img/ilustracao3.svg";
-import ilustracao04 from "../../assets/img/ilustracao7.svg";
+import ilustracao01 from "@/assets/img/ilustracao1.svg";
+import ilustracao02 from "@/assets/img/ilustracao3.svg";
+import ilustracao03 from "@/assets/img/ilustracao8.svg";
+import ilustracao04 from "@/assets/img/ilustracao7.svg";
 
 export const overviewData = [
     {
