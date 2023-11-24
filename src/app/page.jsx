@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link"
 import "./login/login.scss"
+import Image from "next/image";
 
 export default function Registrar() {
     function handleSubmit(){
@@ -9,7 +10,11 @@ export default function Registrar() {
     }
 
   return (
-    <div className="login">
+    <div className="pagina">
+        <div className="imagem">
+         <Image src="/logo.svg" alt="logo" width="400" height="100"></Image>
+        </div>
+    <div className="login">        
         <div className="container_registrar">
             <form className="form"   onSubmit={handleSubmit}>
                 <p className="title">Registrar</p>
@@ -44,6 +49,6 @@ export default function Registrar() {
             </form>
         </div>
     </div>
-
+    </div>
   )
 }

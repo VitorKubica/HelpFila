@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
+import Link from "next/link";
  
 const suggestions = [
   "Canal",
@@ -44,8 +45,8 @@ export default function Input() {
  
   return (
     <div className="flex mt-5 justify-center">
-      <div className=" w-1/3  flex justify-center flex-col search">
-          <div className="flex justify-around px-3 items-center bg-white w-full shadow appearance-none  rounded-full h-10" >
+      <div className=" w-1/3  flex justify-center flex-col search ">
+          <div className="flex justify-around px-3 items-center bg-white w-full shadow appearance-none  rounded-full h-10 " >
             <CiSearch />
             <input
               type="text"
@@ -60,14 +61,15 @@ export default function Input() {
           </div>
  
           {isFocused && (
-            <ul className=" bg-white border rounded-lg  shadow">
+            <ul className="bg-white rounded-lg  shadow">
               {filteredOptions.map((option, index) => (
                 <li
-                  className="border  shadow py-1 flex px-2 "
+                  className=" py-1 flex px-2 hover:bg-gray-200 transition-all duration-300"
                   key={index}
                   onClick={() => handleOptionClick(option)}
                 >
-                  {option}
+                  <Link href='' >{option}</Link>
+                  
                 </li>
               )).splice(0, 3)}
             </ul>

@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link"
 import "./login.scss"
+import Image from "next/image";
 
 export default function Login() {
     function handleSubmit(){
@@ -9,6 +10,10 @@ export default function Login() {
     }
 
   return (
+    <div className="pagina">
+        <div className="imagem">
+            <Image src="/logo.svg" alt="logo" width="400" height="100"></Image>
+        </div>
     <div className="login">
         <div className="container">
             <form className="form_login" onSubmit={handleSubmit}>
@@ -25,6 +30,7 @@ export default function Login() {
 
                 <p className="signin">Ainda não tem uma conta?  <Link href="./">Registre-se</Link></p>
             </form>
+            </div>
         </div>
     </div>
   )

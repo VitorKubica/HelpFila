@@ -1,6 +1,6 @@
 import Overview from "./Overview"
-import Cabecalho from "../components/Cabecalho/Cabecalho"
-import RodapeAbout from "../components/RodapeAbout/RodapeAbout"
+import Cabecalho from "../../src/components/Cabecalho/Cabecalho"
+import RodapeAbout from "../../src/components/RodapeAbout/RodapeAbout"
 
 export default function page() {
   return (

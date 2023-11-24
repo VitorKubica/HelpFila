@@ -3,9 +3,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import "./cabecalho.scss"
 
-
-
-
 export default function Cabecalho() {
   return (
     <header className="header">

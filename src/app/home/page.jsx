@@ -1,7 +1,7 @@
 import React from 'react'
-import Lupa from '../components/Lupa/Lupa'
-import Cabecalho from '../components/Cabecalho/Cabecalho'
-import Rodape from '../components/Rodape/Rodape'
+import Lupa from '../../src/components/Lupa/Lupa'
+import Cabecalho from '../../src/components/Cabecalho/Cabecalho'
+import Rodape from '../../src/components/Rodape/Rodape'
 import "./Home.scss"
 import Image from 'next/image'
 
