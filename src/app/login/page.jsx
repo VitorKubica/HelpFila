@@ -3,9 +3,9 @@ import "./login.scss"
 
 export default function Login() {
   return (
-    <div>
+    <div className="login">
         <div className="container">
-            <form className="form">
+            <form className="form_login">
                 <p className="title">Login</p>
                 <label>
                     <input className="input" type="email" placeholder=" Email " required/>
