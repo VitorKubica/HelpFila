@@ -23,13 +23,13 @@ export default function Overview() {
                 </div> */}
                 </div>
                 <div className="overview_imgDivRight">
-                  <Image src={data.img} alt="" className="mockup"/>
+                  <Image src="https://github.com/RafaelRMJesus.png" width={200} height={200} className="mockup"/>
                 </div>
               </section>
             ) : (
               <section className="OSL overview_section row">
                 <div className="overview_imgDivLeft">
-                  <Image src={data.img} alt="" className="mockup"/>
+                <Image src="https://github.com/RafaelRMJesus.png" width={200} height={200} className="mockup"/>
     
                 </div>
                 <div className="overview_textDiv">
