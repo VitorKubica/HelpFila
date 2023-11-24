@@ -1,13 +1,13 @@
 import Overview from "./Overview"
 import Cabecalho from "../components/Cabecalho/Cabecalho"
-import Rodape from "../components/Rodape/Rodape"
+import RodapeAbout from "../components/RodapeAbout/RodapeAbout"
 
 export default function page() {
   return (
     <div>
         <Cabecalho/>
         <Overview/>
-        <Rodape/>
+        <RodapeAbout/>
     </div>
   )
 }
