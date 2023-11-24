@@ -1,23 +1,23 @@
+"use client";
 import Link from "next/link"
-import "./login.scss"
+import "./login/login.scss"
 
 export default function Registrar() {
+    function handleSubmit(){
+        alert("Foi!")
+        window.location = "/login"
+    }
+
   return (
-    <div>
-        <div className="container">
-            <form className="form">
+    <div className="login">
+        <div className="container_registrar">
+            <form className="form"   onSubmit={handleSubmit}>
                 <p className="title">Registrar</p>
                 <p className="message">Se registre agora para ter acesso a nossa página!</p>
-                <div className="flex">
                 <label>
-                    <input className="input" type="text" placeholder=" Primeiro nome" required/>
+                    <input className="input" type="text" placeholder="Nome Completo" required/>
                 </label>
 
-                <label>
-                    <input className="input" type="text" placeholder=" Sobrenome " required/>
-                </label>
-                </div>
-                
                 <label>
                     <input className="input" type="phone" placeholder="Telefone" required/>
                 </label>
@@ -38,7 +38,7 @@ export default function Registrar() {
                     <input className="input" type="password" placeholder="Confirme sua senha" required/>
                 </label>
 
-                <Link href='./home'><button className="submit">Submit</button></Link>
+                <button className="submit" type="submit">Submit</button>
 
                 <p className="signin">Já possui uma conta? <Link href="./login">Login</Link></p>
             </form>
