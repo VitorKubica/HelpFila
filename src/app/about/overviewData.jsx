@@ -9,7 +9,7 @@ export const overviewData = [
     {
       side: "left",
       title: "Nosso Propósito",
-      text: "No HelpFila, nossa motivação é simples e poderosa: promover mais saúde e menos espera. Acreditamos que todos merecem uma jornada médica tranquila e eficiente.",
+      text: "No HelpFila, nossa motivação é simples e poderosa: promover mais saúde e menos espera. Acreditamos que todos merecem uma jornada médica tranquila e eficiente",
     },
     {
       side: "right",
