@@ -1,7 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import Link from "next/link";
-import style from "./input.scss"
 
 const suggestions = [
   "Canal",
