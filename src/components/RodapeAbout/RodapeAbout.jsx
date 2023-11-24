@@ -12,6 +12,7 @@ export default function RodapeAbout() {
           rm: "RM551809",
           turma: "1TDSPM",
           cargo: "Machine Learning & AI",
+          github: "https://github.com/nichol6s"
         },
         {
             nome: "Murillo Scaff",
@@ -19,6 +20,7 @@ export default function RodapeAbout() {
             rm: "RM551641",
             turma: "1TDSPM",
             cargo: "Scrum Master",
+            github: "https://github.com/Scaffx"
         },
         {
             nome: "Vitor Kubica",
@@ -26,6 +28,7 @@ export default function RodapeAbout() {
             rm: "RM98903",
             turma: "1TDSPM",
             cargo: "Desenvolvedor Frontend ",
+            github: "https://github.com/VitorKubica"
         },
         {
             nome: "Kauan de Almeida",
@@ -33,6 +36,7 @@ export default function RodapeAbout() {
             rm: "RM552075",
             turma: "1TDSPM",
             cargo: "Backend Java & Database",
+            github: "https://github.com/k-alm"
         },
         {
             nome: "Beatriz Svestka",
@@ -40,6 +44,7 @@ export default function RodapeAbout() {
             rm: "RM551534",
             turma: "1TDSPM",
             cargo: "Backend Python",
+            github: "https://github.com/biasvestka"
         },
       ];
 
@@ -50,7 +55,7 @@ export default function RodapeAbout() {
       <div className="team-cards">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-card">
-              <a href={"https://github.com/VitorKubica/HelpFila"}>
+              <a href={member.github} target="_blank">
                 <img src={member.foto} width="115px" alt={`Foto do ${member.nome} no GitHub`} />
                 <sub>
                   <strong>{member.nome}</strong>
@@ -59,6 +64,7 @@ export default function RodapeAbout() {
               <p>RM: {member.rm}</p>
               <p>Turma: {member.turma}</p>
               <p>Cargo: {member.cargo}</p>
+              
             </div>
           ))}
         </div>
