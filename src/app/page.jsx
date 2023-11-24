@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "./css/login.scss"
+import "./login.scss"
 
 export default function Registrar() {
   return (

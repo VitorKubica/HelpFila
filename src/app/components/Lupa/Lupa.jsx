@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from 'react';
-import styles from './Lupa.scss'; // Importando estilos do arquivo SASS
 import Input from './Input';
 
 const suggestions = [
@@ -40,11 +39,11 @@ export default function Lupa() {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={`${styles.search} ${active ? styles.active : ''}`}>
+    <div>
+      <div>
         <a href={`https://www.google.com/search?q=${userData}`} target="_blank" rel="noopener noreferrer" hidden></a>
         <Input/>
-        <div className={styles.icon} onClick={generateSearchLink}>
+        <div onClick={generateSearchLink}>
           <ion-icon name="search-outline"></ion-icon>
         </div>
       </div>
