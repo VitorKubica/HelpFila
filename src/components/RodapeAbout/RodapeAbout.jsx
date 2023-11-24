@@ -25,7 +25,7 @@ export default function RodapeAbout() {
             foto: "https://avatars.githubusercontent.com/u/107961081?v=4",
             rm: "RM98903",
             turma: "1TDSPM",
-            cargo: "Desenvolvedor Frontend",
+            cargo: "Desenvolvedor Frontend ",
         },
         {
             nome: "Kauan de Almeida",
