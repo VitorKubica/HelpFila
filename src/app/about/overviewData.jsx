@@ -25,7 +25,7 @@ export const overviewData = [
     {
       side: "left",
       title: "Nosso Compromisso",
-      text: "Estamos comprometidos em oferecer um atendimento ágil e humano. Mantemos os pacientes informados, proporcionando conforto e tranquilidade durante toda a sua jornada médica. ",
+      text: "Estamos comprometidos em oferecer um atendimento ágil e humano. Mantemos os pacientes informados, proporcionando conforto e tranquilidade durante toda a sua jornada médica.",
       img: ilustracao04,
     },
   ];
