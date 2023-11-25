@@ -21,6 +21,22 @@ Para acessar e visualizar a versão mais recente do projeto Vita, você pode vis
 
 - https://help-fila.netlify.app/
 
+### 🔑 Credenciais para login:
+
+- Todos os dados para login estão no dados.json
+  
+#### usuário padrão
+- email: nic@fiap.com
+- senha: 12345
+
+### 🚀 Iniciando o Projeto
+
+#### Início Rápido com Concurrently
+
+O Projeto VITA facilita o desenvolvimento ao utilizar a biblioteca Concurrently. Com essa ferramenta, é possível iniciar tanto o servidor local JSON quanto o projeto React com um único comando.
+
+- npm run dev
+
 <h1 id="autores">🤝 Integrantes</h2>
 <table>
   <tr>
