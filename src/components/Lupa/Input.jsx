@@ -5,7 +5,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import style from "./input.scss"
-import { Item } from "./Item"
 
 const suggestions = [];
 
@@ -75,12 +74,17 @@ export default function Input() {
             />
           </div>
           {isFocused && (
-            <div className="bg-white rounded-b-3xl  shadow">
+            <ul className=" bg-white border rounded-lg  shadow">
               {filteredOptions.map((option, index) => (
-                <Item key={index} index={index} option={option}/>
-
+                <li
+                  className="border  shadow py-1 flex px-2 "
+                  key={index}
+                  onClick={() => handleOptionClick(option)}
+                >
+                  {option}
+                </li>
               )).splice(0, 6)}
-            </div>
+            </ul>
           )}
         </div>
     </div>
