@@ -1,15 +1,19 @@
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import Link from "next/link";
+import style from "./input.scss"
 
 const suggestions = [
-  "Canal",
-  "YouTube",
-  "YouTuber",
-  "Carros",
-  "Facebook",
-  "Dev Sandrin",
-  "Projetos CSS",
+  "Hospital Israelita Albert Einstein, São Paulo - SP",
+  "Eye Clinic Clínica Oftalmológica, São Paulo - SP",
+  "Hospital Sírio Libanês, São Paulo - SP",
+  "Hospital Alemão Oswaldo Cruz, São Paulo - SP",
+  "Clínica Oftalmológica Prisma Visão, Vila Mariana - SP",
+  "Hospital do Coração, São Paulo - SP",
+  "Vitoria Apart Hospital, Serra - ES",
+  "Benatti Odontologia, Bela Vista - SP",
+  "Hospital Carlos Chagas, Guarulhos - SP",
+  "Family Dentistry, Campinas - SP"
 ];
  
 export default function Input() {
@@ -74,7 +78,7 @@ export default function Input() {
                   <Link href='' >{option}</Link>
                   
                 </li>
-              )).splice(0, 3)}
+              )).splice(0, 5)}
             </ul>
           )}
         </div>
