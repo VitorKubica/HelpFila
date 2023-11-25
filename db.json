@@ -1,0 +1,10 @@
+{
+    "clients": [
+      {
+        "id": 1,
+        "nome": "nic",
+        "email": "nic@fiap.com",
+        "senha": "12345"
+      }
+    ]
+  }

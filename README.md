@@ -1,4 +1,3 @@
-
 <p align="center">
 <img src="./public/logo.svg" alt="Logo HelpFila" width=300>
 </p>
@@ -28,12 +27,13 @@ Para acessar e visualizar a versão mais recente do projeto Vita, você pode vis
 #### usuário padrão
 - email: nic@fiap.com
 - senha: 12345
+OBS: Pule direto para a página de login 
 
 ### 🚀 Iniciando o Projeto
 
 #### Início Rápido com Concurrently
 
-O Projeto VITA facilita o desenvolvimento ao utilizar a biblioteca Concurrently. Com essa ferramenta, é possível iniciar tanto o servidor local JSON quanto o projeto React com um único comando.
+O Projeto HelpFIla facilita o desenvolvimento ao utilizar a biblioteca Concurrently. Com essa ferramenta, é possível iniciar tanto o servidor local JSON quanto o projeto React com um único comando.
 
 - npm run dev
 
@@ -84,4 +84,3 @@ O Projeto VITA facilita o desenvolvimento ao utilizar a biblioteca Concurrently.
 </table>
 
 ---
-
