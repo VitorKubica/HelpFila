@@ -1,22 +1,29 @@
+"use client"
+
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import style from "./input.scss"
+import { Item } from "./Item"
 
-const suggestions = [
-  "Hospital Israelita Albert Einstein, São Paulo - SP",
-  "Eye Clinic Clínica Oftalmológica, São Paulo - SP",
-  "Hospital Sírio Libanês, São Paulo - SP",
-  "Hospital Alemão Oswaldo Cruz, São Paulo - SP",
-  "Clínica Oftalmológica Prisma Visão, Vila Mariana - SP",
-  "Hospital do Coração, São Paulo - SP",
-  "Vitoria Apart Hospital, Serra - ES",
-  "Benatti Odontologia, Bela Vista - SP",
-  "Hospital Carlos Chagas, Guarulhos - SP",
-  "Family Dentistry, Campinas - SP"
-];
+const suggestions = [];
+
+const prefixos = ["Hospital", "Clínica", "Consultório", "Centro Médico"];
+const especialidades = ["Cardiologia", "Oftalmologia", "Odontologia", "Ortopedia"];
+const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Porto Alegre"];
+const estados = ["SP", "RJ", "MG", "RS"];
+
+for (let i = 1; i <= 1000; i++) {
+  const nome = `${prefixos[Math.floor(Math.random() * prefixos.length)]} ${especialidades[Math.floor(Math.random() * especialidades.length)]}, ${cidades[Math.floor(Math.random() * cidades.length)]} - ${estados[Math.floor(Math.random() * estados.length)]}`;
+  suggestions.push(nome);
+}
+
+console.log(suggestions)
  
 export default function Input() {
+
+  const router = useRouter()
   const [inputValue, setInputValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState(suggestions);
   const [isFocused, setIsFocused] = useState(false);
@@ -35,7 +42,8 @@ export default function Input() {
     setFilteredOptions(filtered);
   };
  
-  const handleOptionClick = (option) => {
+  const handleOptionClick = (option, link) => {
+    window.location.href = link;
     setInputValue(option);
     setFilteredOptions([])
   };
@@ -60,26 +68,18 @@ export default function Input() {
               name="searchInput"
               id="searchInput"
               placeholder="Pesquisar..."
-              className=" w-full mx-3 focus:outline-none focus:shadow-outline "
+              className="w-full mx-3 focus:outline-none focus:shadow-outline "
               onChange={handleInputChange}
               onFocus={handleInputFocus}
               onBlur={handleInputBlur}
             />
           </div>
-
           {isFocused && (
-            <ul className="bg-white rounded-b-3xl  shadow">
+            <div className="bg-white rounded-b-3xl  shadow">
               {filteredOptions.map((option, index) => (
-                <li
-                  className=" py-1 flex px-2 hover:bg-gray-200 transition-all duration-300"
-                  key={index}
-                  onClick={() => handleOptionClick(option)}
-                >
-                  <Link href='' >{option}</Link>
-                  
-                </li>
-              )).splice(0, 5)}
-            </ul>
+                <Item index={index} option={option}/>
+              )).splice(0, 6)}
+            </div>
           )}
         </div>
     </div>
