@@ -77,7 +77,8 @@ export default function Input() {
           {isFocused && (
             <div className="bg-white rounded-b-3xl  shadow">
               {filteredOptions.map((option, index) => (
-                <Item index={index} option={option}/>
+                <Item key={index} index={index} option={option}/>
+
               )).splice(0, 6)}
             </div>
           )}
