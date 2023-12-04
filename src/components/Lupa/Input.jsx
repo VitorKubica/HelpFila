@@ -2,9 +2,7 @@
 
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
-import style from "./input.scss"
+import "./input.scss"
 
 const suggestions = [];
 
@@ -22,7 +20,6 @@ console.log(suggestions)
  
 export default function Input() {
 
-  const router = useRouter()
   const [inputValue, setInputValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState(suggestions);
   const [isFocused, setIsFocused] = useState(false);
@@ -74,10 +71,10 @@ export default function Input() {
             />
           </div>
           {isFocused && (
-            <ul className=" bg-white border rounded-lg  shadow">
+            <ul className="bg-white rounded-b-3xl shadow">
               {filteredOptions.map((option, index) => (
                 <li
-                  className="border  shadow py-1 flex px-2 "
+                  className="py-1 flex px-2 hover:bg-gray-200 transition-all duration-300"
                   key={index}
                   onClick={() => handleOptionClick(option)}
                 >
