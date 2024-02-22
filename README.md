@@ -25,7 +25,7 @@ Para acessar e visualizar a versão mais recente do projeto Vita, você pode vis
 - Todos os dados para login estão no dados.json
   
 #### usuário padrão
-- email: nic@fiap.com
+- email: vit@fiap.com
 - senha: 12345
 OBS: Pule direto para a página de login 
 
